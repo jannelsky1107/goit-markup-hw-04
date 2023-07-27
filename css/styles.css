@@ -126,7 +126,7 @@ img {
 }
 
 .nav-menu .item:not(:last-child),
-.contacts-menu .iten:not(:last-child) {
+.contacts-menu .item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -151,6 +151,7 @@ img {
   background-size: cover;
   background-position: 50% 50%;
   margin: 0 18%;
+  margin-bottom: 5%;
 }
 
 .hero {
@@ -179,6 +180,7 @@ img {
   font-weight: 500;
   line-height: 1.14;
   margin-bottom: 10px;
+  margin-top: 100px;
   color: var(--navyblue);
 }
 
@@ -283,7 +285,7 @@ img {
   margin-bottom: 20px;
 }
 
-.page-footer.bg-footer {
+.page-footer {
   background: var(--navyblue);
 }
 
@@ -401,37 +403,28 @@ img {
 
 /* icons-logos */
 
-.advantages.list {
-  display: flex;
-  justify-content: space-between;
+.benefits .icon {
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.advantages .item {
-  width: calc(100% / 4 - 30px);
-  height: 112px;
+.benefits .icon {
   border-radius: 4px;
-  padding-top: 20px;
-  padding-left: 100px;
   margin-bottom: -85px;
+  fill: var(--navyblue);
   background-color: var(--cloud);
 }
 
-.advantages .link {
-  width: 100%;
-  height: 100%;
-}
-
-.advantages .icon {
-  fill: var(--navyblue);
-}
-
-.media-logo.list {
+.social-team.list {
   display: flex;
   justify-content: space-around;
   padding-top: 10px;
 }
 
-.media-logo .logo-item {
+.team .icon-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -442,33 +435,13 @@ img {
   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
 }
 
-.media-logo .link {
-  width: 100%;
-  height: 100%;
-}
-
-.container .media-logo.list {
-  display: flex;
-  align-items: center;
-}
-
-.customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.container .clients.list {
+.container .partners.list {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.clients .list {
-  width: 40px;
-  height: 40px;
-}
-
-.clients .item {
+.partners .item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -478,7 +451,7 @@ img {
   border: 1px solid var(--lightslate);
 }
 
-.clients .link {
+.partners .link {
   width: 100%;
   height: 100%;
   fill: var(--lightslate);
@@ -491,35 +464,33 @@ img {
 .footer-socmed {
   max-width: 70%;
 } */
-.page-footer {
+.page-footer .container {
   display: flex;
   justify-content: center;
 }
-.main-footer {
+.footer {
   display: flex;
   padding: 100px 170px;
   width: 1500px;
+  margin: 0 auto;
 }
 
-.col-1 {
+.footer-address {
   flex: 1;
 }
-.col-2 {
+.footer-block {
   flex: 2;
 }
 
-.socmed-title {
-  color: var(--white);
-}
-
-.socmeds.list {
+.social-footer.list {
   display: flex;
-  justify-content: space-around;
   margin-top: 10px;
   padding-top: 10px;
+  gap: 15px;
+  fill: var(--cloud);
 }
 
-.socmeds .item {
+.icon-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -527,30 +498,4 @@ img {
   height: 40px;
   background-color: var(--iris);
   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-}
-
-.socmeds .link {
-  width: 100%;
-  height: 100%;
-  fill: var(--cloud);
-}
-
-.socmeds .socmed.link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container .socmeds.list {
-  display: flex;
-  justify-content: space-around;
-  gap: 15px;
-}
-
-.soc-container {
-  width: 225px;
-}
-
-.container-1 {
-  width: 300px;
 }
