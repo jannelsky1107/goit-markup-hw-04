@@ -475,8 +475,8 @@ img {
   fill: var(--lightslate);
 }
 
-.container .partners.list:hover {
-  color: var(--ocean);
+.partners .icon:hover {
+  fill: var(--ocean);
 }
 
 /* .container.footer {
